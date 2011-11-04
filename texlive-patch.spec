@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/generic/misc/patch.doc
+# catalog-date 2008-06-02 13:47:56 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-patch
 Version:	20080602
 Release:	1
@@ -26,6 +32,7 @@ it benefits from docstrip treatment.
 %files
 #- source
 %doc %{_texmfdistdir}/source/generic/patch/patch.doc
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -36,3 +43,5 @@ it benefits from docstrip treatment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
