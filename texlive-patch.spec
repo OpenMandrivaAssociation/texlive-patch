@@ -16,7 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/patch.source.tar.
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
 
 %description
 The package defines macros that allow patching of existing
@@ -32,7 +31,6 @@ it benefits from docstrip treatment.
 %files
 #- source
 %doc %{_texmfdistdir}/source/generic/patch/patch.doc
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -43,5 +41,3 @@ it benefits from docstrip treatment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
