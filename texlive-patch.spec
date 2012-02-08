@@ -1,12 +1,12 @@
-# revision 15878
+# revision 25271
 # category Package
 # catalog-ctan /macros/generic/misc/patch.doc
-# catalog-date 2008-06-02 13:47:56 +0200
+# catalog-date 2012-01-13 11:54:55 +0100
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-patch
-Version:	20080602
-Release:	2
+Version:	20120113
+Release:	1
 Summary:	Patch loaded packages, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/misc/patch.doc
