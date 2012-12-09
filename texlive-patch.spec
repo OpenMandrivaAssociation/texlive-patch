@@ -41,3 +41,21 @@ it benefits from docstrip treatment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120113-1
++ Revision: 772127
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080602-2
++ Revision: 754702
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080602-1
++ Revision: 719202
+- texlive-patch
+- texlive-patch
+- texlive-patch
+- texlive-patch
+
