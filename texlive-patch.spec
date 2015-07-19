@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-patch
 Version:	20120113
-Release:	8
+Release:	9
 Summary:	Patch loaded packages, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/misc/patch.doc
