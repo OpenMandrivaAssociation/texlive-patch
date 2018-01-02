@@ -1,9 +1,3 @@
-# revision 25271
-# category Package
-# catalog-ctan /macros/generic/misc/patch.doc
-# catalog-date 2012-01-13 11:54:55 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-patch
 Version:	20170414
 Release:	1
@@ -30,7 +24,7 @@ it benefits from docstrip treatment.
 #-----------------------------------------------------------------------
 %files
 #- source
-%doc %{_texmfdistdir}/source/generic/patch/patch.doc
+%doc %{_texmfdistdir}/source/generic/patch
 
 #-----------------------------------------------------------------------
 %prep
@@ -41,21 +35,3 @@ it benefits from docstrip treatment.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120113-1
-+ Revision: 772127
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20080602-2
-+ Revision: 754702
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20080602-1
-+ Revision: 719202
-- texlive-patch
-- texlive-patch
-- texlive-patch
-- texlive-patch
-
