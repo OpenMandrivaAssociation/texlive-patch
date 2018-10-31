@@ -1,6 +1,6 @@
 Name:		texlive-patch
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Patch loaded packages, etc
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/generic/misc/patch.doc
